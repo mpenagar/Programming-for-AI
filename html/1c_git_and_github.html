@@ -7899,8 +7899,8 @@ ls<span class="w"> </span>-l
   12871   25741  207567 words.txt
  112839  850279 4663563 total
 total 4556
--rw-r--r-- 1 jupyter-mpenagaricano jupyter-mpenagaricano 4455996 Apr 15 14:10 bible.txt
--rw-r--r-- 1 jupyter-mpenagaricano jupyter-mpenagaricano  207567 Apr 15 14:10 words.txt
+-rw-r--r-- 1 jupyter-mpenagaricano jupyter-mpenagaricano 4455996 Apr 16 15:00 bible.txt
+-rw-r--r-- 1 jupyter-mpenagaricano jupyter-mpenagaricano  207567 Apr 16 15:00 words.txt
 </pre>
 </div>
 </div>
@@ -8042,7 +8042,7 @@ Changes to be committed:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[master (root-commit) b7f07c7] My first commit
+<pre>[master (root-commit) 461ee0c] My first commit
  2 files changed, 112839 insertions(+)
  create mode 100644 bible.txt
  create mode 100644 words.txt
@@ -8120,7 +8120,7 @@ nothing to commit, working tree clean
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[master 01caebf] git test
+<pre>[master 1566b68] git test
  1 file changed, 1 insertion(+)
 </pre>
 </div>
@@ -8180,7 +8180,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[master 0742c74] git test 2
+<pre>[master 68e4179] git test 2
  1 file changed, 1 insertion(+)
  create mode 100644 test.txt
 </pre>
@@ -8282,7 +8282,7 @@ git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[test1 b7a58a5] the message
+<pre>[test1 75c51b2] the message
  1 file changed, 1 insertion(+)
  create mode 100644 new_feature.txt
 </pre>
@@ -8486,7 +8486,7 @@ bible.txt
 test.txt
 words.txt
 ▬▬▬ git merge test1 ▬▬▬
-Updating 0742c74..b7a58a5
+Updating 68e4179..75c51b2
 Fast-forward
  new_feature.txt | 1 +
  1 file changed, 1 insertion(+)
@@ -8547,7 +8547,7 @@ git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[test1 21a2cf3] the message
+<pre>[test1 94c482a] the message
  1 file changed, 1 insertion(+)
 </pre>
 </div>
@@ -8562,7 +8562,7 @@ git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[master 586a562] the message
+<pre>[master 6b03055] the message
  1 file changed, 1 insertion(+)
 </pre>
 </div>
@@ -8758,7 +8758,7 @@ git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </sp
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[master 3515ae0] the message
+<pre>[master fabbe65] the message
 </pre>
 </div>
 </div>
@@ -8874,7 +8874,7 @@ git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[test1 5d37fd3] the message
+<pre>[test1 29e94cf] the message
  1 file changed, 1 insertion(+)
 </pre>
 </div>
@@ -8889,7 +8889,7 @@ git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[master 8187215] the message
+<pre>[master 7af0655] the message
  1 file changed, 1 insertion(+)
 </pre>
 </div>
@@ -8917,7 +8917,8 @@ git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span>%%bash
 <span class="nb">cd</span><span class="w"> </span>~/tmp/my_project
-git<span class="w"> </span>merge<span class="w"> </span>--no-commit<span class="w"> </span>--no-ff<span class="w"> </span>test1<span class="w"> </span><span class="o">||</span><span class="w"> </span>git<span class="w"> </span>merge<span class="w"> </span>--abort
+git<span class="w"> </span>merge<span class="w"> </span>--no-commit<span class="w"> </span>--no-ff<span class="w"> </span>test1
+git<span class="w"> </span>merge<span class="w"> </span>--abort
 </pre></div>
 </div>
 </div>
@@ -8947,7 +8948,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li><code>git merge --no-commit --no-ff</code> → does not commit or fast forward</li>
-<li><code>|| git merge --abort</code> → if merge fails, abort it</li>
+<li><code>git merge --abort</code> → abort the merge</li>
 </ul>
 </div>
 </div>
@@ -8977,7 +8978,7 @@ git<span class="w"> </span>switch<span class="w"> </span>master
 git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>tmp_branch_check
 git<span class="w"> </span>merge<span class="w"> </span>test1<span class="w"> </span><span class="o">||</span><span class="w"> </span>git<span class="w"> </span>merge<span class="w"> </span>--abort
 git<span class="w"> </span>switch<span class="w"> </span>master
-git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>tmp_branch_check
+git<span class="w"> </span>branch<span class="w"> </span>-D<span class="w"> </span>tmp_branch_check
 </pre></div>
 </div>
 </div>
@@ -9014,9 +9015,23 @@ Automatic merge failed; fix conflicts and then commit the result.
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Deleted branch tmp_branch_check (was 8187215).
+<pre>Deleted branch tmp_branch_check (was 7af0655).
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><code>git merge test1 || git merge --abort</code> → merge and abort if it fails</li>
+<li><code>git branch -D tmp_branch_check</code> → force-delete the branch</li>
+</ul>
 </div>
 </div>
 </div>
