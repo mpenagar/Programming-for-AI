@@ -1,6 +1,5 @@
 # Programming-for-AI
 
-* Open in 
 * Open in Colab: [![colab]][colab-Introduction]
 
 [colab]: <https://colab.research.google.com/assets/colab-badge.svg>
